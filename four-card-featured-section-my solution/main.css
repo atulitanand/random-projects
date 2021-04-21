@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  color: #68676c;
+}
+
+.wrapper {
+  max-width: 90vw;
+  margin: auto;
+  margin-top: 3rem;
+  -webkit-box-shadow: 0 0 3rem rgba(0, 0, 0, 0.517);
+          box-shadow: 0 0 3rem rgba(0, 0, 0, 0.517);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+  padding: 5rem 0;
+}
+
+header {
+  text-align: center;
+}
+
+header h1,
+header h2,
+header p {
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  font-weight: 100;
+  font-size: 3rem;
+  color: #afafb1;
+}
+
+header h2 {
+  font-size: 3rem;
+  margin-bottom: 2.8rem;
+}
+
+header p {
+  font-size: 1.4rem;
+  color: #c1c1c3;
+}
+
+@media (max-width: 500px) {
+  header {
+    width: 30rem;
+    font-size: 60%;
+  }
+}
+
+main {
+  width: 100%;
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.card-col {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 30rem;
+          flex: 1 1 30rem;
+  max-width: 30rem;
+}
+
+.icon-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.card {
+  border-radius: 1rem;
+  margin-top: 2rem;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.259);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.259);
+}
+
+.card h2 {
+  margin-top: 3rem;
+}
+
+.card p {
+  margin-top: 1rem;
+}
+
+.card header {
+  padding: 0.2rem;
+  background-color: rebeccapurple;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.content {
+  padding: 2.2rem 2rem;
+}
+
+#first,
+#third {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#first header {
+  background-color: #00c8c8;
+}
+
+#second .card:first-child header {
+  background-color: #e63950;
+}
+
+#second .card:last-child header {
+  background-color: #ffda2d;
+}
+
+#third header {
+  background-color: #549ef2;
+}
+/*# sourceMappingURL=main.css.map */
